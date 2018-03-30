@@ -1,3 +1,2 @@
 # myNote
-开发学习笔记
-开始记笔记啦
+work or study note
