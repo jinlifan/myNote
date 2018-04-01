@@ -1,2 +1,2 @@
 # myNote
-work or study note
+work and study note
