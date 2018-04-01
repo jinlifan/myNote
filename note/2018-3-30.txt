@@ -1,0 +1,21 @@
+github 创建仓库
+
+安装GIT
+
+配置git
+1、ssh-keygen –t rsa –C "邮箱地址"
+2、id_rsa.pub
+3、settings -> ssh keys -> add ssh key 
+4、ssh –T git@github.com  -> yes 
+5、配置邮箱用户名
+git config --global user.name "用户名"
+git config –global user.email "邮箱"
+
+托管项目
+1、创建文件夹->Git Bash Here
+2、git init
+3、git remote add origin git@github.com:jinlifan/myNote.git
+4、git pull git@github.com:jinlifan/myNote.git
+5、git add . / git add 文件名
+6、git commit -m "提交说明"
+7、git push git@github.com:jinlifan/myNote.git
