@@ -13,8 +13,27 @@ git reset
 git checkout
 git checkout HEAD
 
+##删除文件
 git rm file
 git rm --cached file
 
+##重命名
 git mv oldname newname
+
+##暂存工作区（抽屉）
+git stash
+git stash list
+git stash pop
+
+commit 对象 及 tree-ish
+git log --online
+git rev-parse HEAD~4
+
+分支：
+git branch tryidea
+git checkout tryidea
+git branch  -d tryidea
+
+3-way merge
+
 
