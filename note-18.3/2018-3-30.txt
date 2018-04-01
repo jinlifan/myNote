@@ -19,3 +19,4 @@ git config –global user.email "邮箱"
 5、git add . / git add 文件名
 6、git commit -m "提交说明"
 7、git push git@github.com:jinlifan/myNote.git
+8、git push origin master
