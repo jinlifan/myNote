@@ -1,2 +1,20 @@
 gitÃüÁî£º
 git clone githubµØÖ·
+git status 
+git status -s
+git diff
+git diff --staged
+git diff HEAD
+
+git add
+git commit
+git commit -a
+git reset
+git checkout
+git checkout HEAD
+
+git rm file
+git rm --cached file
+
+git mv oldname newname
+
