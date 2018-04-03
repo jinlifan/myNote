@@ -8,4 +8,64 @@ linux复习：
 用户@在主机名 工作目录
 su lfjin 切换用户
 
+vim 
+	1、vim file
+	2、vim +数字 file
+	3、vim +/字符串 file   N/n(上下切换) ：nohl
+		如果打开的文件不存在，会已新文件的方式打开
+	命令模式
+		切换到最后一会 G
+		切换到第一行 gg
+		切换到指定的行 数字加G
+		数字 向上/向下
+		删除行 （数字）+dd 
+		删除行并留空 D
+		复制 （数字）+yy  
+		粘贴 p
+		
+	末行模式
+		set nu
+		撤销 :(数字)u 
+		保存 :w
+		另存 :w 路径/file
+		退出 :q   ：wq   ：x（只有在文件内容发生改变时，才会修改最后修改时间）    ：X（加密）
+		强制退出 :q!
+		查找 /字符串
+		替换 
+			1 ：s/old/new 
+			2 ：s/old/new /g
+			3 ：%s/old/new 
+			4 ：%s/old/new /g
+			
+	编辑模式
+		i 或者 a   退出 esc
+		
+		
+	用户家目录.vimrc   .bashrc (alias  cls = 'clear')
+	etc/inittab
+	windows远程登录 mstsc
+	
+	
+	网络配置
+	etc/sysconfig/network-scripts
+	
+		用户 etc/passwd					 		
+添加	useradd lfjin							
+编辑	usermod -l jinlifan lfjin
+		usermod -g 用户组id lfjin
+删除	userdel lfjin
+密码	passwd lfjin
 
+		用户组 etc/group
+添加	groupadd jin
+编辑	groupmod -n JIN jin
+删除	groupdel JIN(需现将组内成员删除或清空)
+
+ 
+d rwx（用户u） rwx（同组g） rwx（其他o）
+chmod u=rwx,g=rwx,o=rwx file/-r dir
+chmod 777 file/-r dir
+
+>覆盖写  >>追加写  
+find / -name passwd
+man  Manual手册   man 命令名称  q退出
