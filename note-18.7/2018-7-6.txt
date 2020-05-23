@@ -1,6 +1,0 @@
-
-CompileSdkVersion:是告诉gradle 用哪个SDK版本来编译，和运行时要求的版本号没有关系；使用任何新添加的 API 就需要使用对应 Level 的 Android SDK。
-
-buildToolsVersion: android构建工具的版本,在SDK Manager中安装选择版本，buildToolsVersion的版本需要>=CompileSdkVersion; 高版本的build-tools 可以构建低版本编译的android程序；
-
-https://developer.android.google.cn/studio/releases/gradle-plugin

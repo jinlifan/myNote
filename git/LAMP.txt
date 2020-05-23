@@ -1,0 +1,46 @@
+
+#service 服务名称 start/stop/restart
+
+pscp window中的文件路径 用户名@主机地址：文件的保存路径
+
+sftp工具
+xftp
+
+光盘挂载
+lsblk 列出块状设备
+#mount /dev/sr0 /mnt/dvd/
+
+LAMP安装
+1、装备工作
+1.1 关闭防火墙 
+service iptables stop
+卸载防火墙
+rpm -qa iptables
+rpm -e 全名 --nodeps
+
+压缩包 格式 gz bz2
+tar -zxvf file
+tar -jxvf file
+
+2、开始安装
+安装失败需要 删除tar 解压的目录和安装到的目录
+
+1安装zlib
+./configure  --preifx 
+make 编译
+make install 安装
+
+2安装apache
+3安装libxml2
+4安装jpeg8
+5安装libpng
+6安装freetype(字体库)
+7安装GD库（处理图片）
+8安装openssl
+9安装php
+10安装cmake
+11安装ncurses-devel
+12安装mysql
+
+
+
