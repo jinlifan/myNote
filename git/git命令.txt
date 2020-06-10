@@ -36,6 +36,10 @@ git branch  -d tryidea
 
 3-way merge
 
+查看
+git config user.name
+git config user.email
+
  1.取消global
     git config --global --unset user.name
     git config --global --unset user.email
@@ -44,4 +48,6 @@ git branch  -d tryidea
     git config  user.email "xxxx@xx.com"
     git config  user.name "xxxx"
 
+子模块更新
+git submodule update --init --recursive
 
