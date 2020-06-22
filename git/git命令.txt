@@ -51,3 +51,6 @@ git config user.email
 子模块更新
 git submodule update --init --recursive
 
+git reset --soft HEAD~1 
+(--soft  --hard  ~1 ~2 ~3)
+
